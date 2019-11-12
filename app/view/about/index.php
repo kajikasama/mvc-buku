@@ -3,12 +3,12 @@
     <div class="nav-brand">
       <a href="<?=BASEURL; ?>/home">Hagyukuro</a>
     </div>
-    <li class="nav-list"><a href="<?=BASEURL; ?>/about">about</a></li>
+    <li class="nav-list underline"><a href="<?=BASEURL; ?>/about">about</a></li>
     <li class="nav-list"><a href="<?=BASEURL; ?>/product">product</a></li>
     <li class="nav-list"><a href="<?=BASEURL; ?>/location">location</a></li>
     </div>
     <div class="header-tulisan">
-    <h1><?=$data['header-tulisan2']; ?></h1>
+    <h1><?=$data['header-tulisan']; ?></h1>
     <h2><?=$data['header-tulisan2']; ?></h2>
     <a href="#" class="button yellowline">Baca Lebih</a>
   </div>

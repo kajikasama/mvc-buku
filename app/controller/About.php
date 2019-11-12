@@ -10,8 +10,6 @@
       $data['header-tulisan2'] = 'Perpustakaan Milik Patchouli Knowledge';
 
       $this->view('template/header',$data);
-      $this->view('template/bg');
-      $this->view('template/navbar');
       $this->view('about/index',$data);
       $this->view('template/footer');
     }

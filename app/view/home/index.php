@@ -9,7 +9,7 @@
     </div>
     <div class="header-tulisan">
     <h1>Semua Orang Bisa Ke Gensokyo</h1>
-    <h2>Dunia illusi impian</h2>
+    <h2>Hallo, nama saya <?=$data['nama']; ?></h2>
     <a href="#" class="button purple-line">Baca Lebih</a>
   </div>
 </div>
@@ -26,6 +26,5 @@
 <div class="popular">
   <h2>Popluar Books</h2>
   <div class="thebooks">
-
   </div>
 </div>

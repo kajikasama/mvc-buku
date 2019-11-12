@@ -6,8 +6,10 @@
     {
       $data['judul'] = 'Product';
 
+      $data['product'] = $this->model('ProductModel')->getAllProduct();
+
       $this->view('template/header',$data);
-      $this->view('product/index');
+      $this->view('product/index',$data);
       $this->view('template/footer');
     }
   }
